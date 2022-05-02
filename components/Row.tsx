@@ -1,7 +1,7 @@
 import { FC, useCallback, useRef, useState } from 'react'
 import { IMovie } from '../types/movie'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/outline'
-import Thumbnail from './thumbnail'
+import Thumbnail from './Thumbnail'
 
 interface IRowProps {
   title: string
