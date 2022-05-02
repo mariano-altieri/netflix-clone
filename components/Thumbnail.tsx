@@ -4,7 +4,7 @@ import { IMovie } from '../types/movie'
 
 interface IThumbnailProps {
   movie: IMovie
-  // movie: IMovie | DocumentData
+  // movie: IMovie | DocumentData // the latter will be required for Firebase
 }
 
 const Thumbnail: FC<IThumbnailProps> = ({ movie }) => {
